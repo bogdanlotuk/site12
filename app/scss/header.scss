@@ -1,0 +1,47 @@
+.header {
+    &__inner {
+        max-width: 1020px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__top-left {}
+    &__logo {}
+    &__top-right {
+        display: flex;
+    }
+    &__hours {}
+    &__hours-top {}
+    &__hours-bottom {}
+    &__call {}
+    &__right-btn {}
+    &__top-menu {
+        width: 100%;
+    }
+    &__menu {}
+    &__middle {}
+    &__title-h1 {}
+    &__middle-btn {}
+}
+.container {
+}
+.logo {
+    &__img {}
+    &__text {}
+}
+.btn {
+}
+.menu {
+}
+.list {
+    display: flex;
+    &__item {}
+    &__item-link {}
+}
+
+
