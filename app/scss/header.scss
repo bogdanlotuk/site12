@@ -1,7 +1,7 @@
 .header {
     color: #fff;
     .container {
-        background-image: url(../img/header/bg.jpg);
+        background-image: url(../img/header/header_bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -56,7 +56,6 @@
         letter-spacing: 0.15px;
         text-transform: uppercase;
         margin-bottom: 5px;
-        
     }
     &__hours-bottom {
         font-weight: 700;
@@ -69,7 +68,6 @@
         margin-right: 30px;
         position: relative;
     }
-
     &__call::after {
         position: absolute;
         content: "";
@@ -81,7 +79,6 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-
     &__call-top {
         font-weight: 700;
         font-size: 12px;
@@ -101,7 +98,6 @@
     }
     &__top-menu {
         width: 100%;
-        
     }
     &__menu {
     }
@@ -114,8 +110,6 @@
         font-size: 56px;
         line-height: 56px;
         width: 55%;
-    }
-    &__middle-btn {
     }
 }
 .logo {
@@ -136,20 +130,20 @@
 }
 .btn {
     display: flex;
-        align-items: center;
-        width: 211px;
-        height: 40px;
-        background-color: #C40B0B; 
-        border: none;
-        color: #fff;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 24px;
-        letter-spacing: 0.15px;
-        text-transform: uppercase;
-        padding-left: 15px;
-        position: relative;
-        cursor: pointer;
+    align-items: center;
+    width: 211px;
+    height: 40px;
+    background-color: #C40B0B; 
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    position: relative;
+    cursor: pointer;
 }
 .btn::before {
     position: absolute;
@@ -170,8 +164,6 @@
     background-image: url('../img/header/arrow.svg');
     right: 10px;
 }
-.menu {
-}
 .list {
     display: flex;
     color: #02133C;
@@ -179,9 +171,7 @@
     list-style-type: none;
     &__item {
         margin-left: 37px;
-        
     }
-
     &__item-link {
         display: flex;
         padding: 15px 0;
