@@ -6,39 +6,24 @@ html {
 *::after,
 *::before {
     box-sizing: inherit; 
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
 }
 body {
-    font-family: 'Proxima Nova Rg', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color:#232323;
+    font-weight: 400;
+    color:#4B4B4B;
 }
 .container {
-    max-width: 1470px; 
+    max-width: 1470px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.header {
-    &__inner {
-    }
-    &__top {}
-    &__top-left {}
-    &__logo {}
-    &__top-right {}
-    &__hours {}
-    &__hours-top {}
-    &__hours-bottom {}
-    &__call {}
-    &__right-btn {}
-    &__top-menu {}
-    &__menu {}
-    &__middle {}
-    &__title-h1 {}
-    &__middle-btn {}
-}
 
 
 
