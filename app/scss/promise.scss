@@ -1,6 +1,6 @@
 .promise {
     &__inner {
-        margin: 0 auto;
+        margin: 0 auto 122px;
         max-width: 1020px;
         display: flex;
         flex-direction: column;
@@ -49,13 +49,13 @@
         top: 0;
         left: 0;
     }
-    &__item:first-child::before {
+    &__item:nth-child(1)::before {
         background-image: url(../img/promise/first.svg);
     }
     &__item:nth-child(2)::before {
         background-image: url(../img/promise/second.svg);
     }
-    &__item:last-child::before {
+    &__item:nth-child(3)::before {
         background-image: url(../img/promise/third.svg);
     }
     &__item-title {

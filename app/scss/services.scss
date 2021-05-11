@@ -1,0 +1,115 @@
+.services {
+        .container {
+            background: url(../img/services/bg_top.svg) no-repeat top left,
+                        url(../img/services/bg_bottom.svg) no-repeat bottom right;
+        }
+		&__inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__above-title {
+        margin-top: 110px;
+        margin-bottom: 33px;
+        padding-left: 34px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #4B4B4B;
+        position: relative;
+    }
+    &__above-title::before {
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 22px;
+        background-image: url(../img/we/red_grey_arrows.svg);
+        top: -2px;
+        left: 0;
+    }
+    &__title-h2 {
+        color: #02133C;
+        width: 60%;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 68px;
+    }
+		&__parts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            margin-bottom: 66px;
+        }
+		&__item {
+            width: 324px;
+            height: 340px;
+            padding: 146px 44px 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            background-color: #fff;
+        }
+		&__item-top {}
+		&__img {}
+		&__item-title {
+            font-weight: 900;
+            font-size: 19px;
+            line-height: 26px;
+            text-align: center;
+            color: #02133C;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        &__item::before {
+            position: absolute;
+            content: '';
+            width: 63px;
+            height: 63px;
+            top: 50px;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        &__item:nth-child(1)::before {
+            background-image: url('../img/services/inspection.svg');
+        }
+        &__item:nth-child(2)::before {
+            background-image: url('../img/services/inspection.svg');
+        }
+        &__item:nth-child(2)::before {
+            background-image: url('../img/services/engine.svg');
+        }
+        &__item:nth-child(3)::before {
+            background-image: url('../img/services/breaks.svg');
+        }
+        &__item:nth-child(4)::before {
+            background-image: url('../img/services/tires.svg');
+        }
+        &__item:nth-child(5)::before {
+            background-image: url('../img/services/warranty.svg');
+        }
+        &__item:nth-child(6)::before {
+            background-image: url('../img/services/shop.svg');
+        }
+
+		&__item-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.15px;
+            color: #4B4B4B;
+        }
+		&__btn {
+            align-self: center;
+            width: 145px;
+            margin-bottom: 122px;
+        }
+}
+
+
