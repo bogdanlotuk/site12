@@ -1,0 +1,130 @@
+.appointment {
+    .container {
+        background: url(../img/appointment/bg_top.svg) no-repeat top right,
+                    url(../img/appointment/bg_bottom.svg) no-repeat bottom 78px left,
+                    #02133C;
+    }
+    &__inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__number {
+        max-width: 324px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__number-top {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 46px;
+    }
+    &__number-center {
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 56px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #C40B0B;
+        margin-bottom: 46px;
+    }
+    &__number-bottom {
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.form {
+    max-width: 585px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    padding: 76px 57px;
+    background: #fff;
+    margin: 130px 0 210px 0;
+    &__title {
+        width: 100%;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #02133C;
+        margin-bottom: 21px;
+    }
+    &__email {
+        width: 47%;
+        height: 48px;
+        background: #F5F5F5;
+        border: none;
+        padding: 23px 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #959595;
+    }
+    &__phone {
+        width: 47%;
+        height: 48px;
+        background: #F5F5F5;
+        border: none;
+        padding: 23px 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #959595;
+    }
+    &__name {
+        width: 47%;
+        height: 48px;
+        background: #F5F5F5;
+        border: none;
+        padding: 23px 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #959595;
+    }
+    &__service {
+        width: 47%;
+        height: 48px;
+        background: #F5F5F5;
+        border: none;
+        padding: 23px 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #959595;
+    }
+    &__textarea {
+        width: 100%;
+        padding: 15px 23px;
+        height: 180px;
+        background: #F5F5F5;
+        border: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #959595;
+    }
+    &__btn {
+        // justify-self: end;
+    }
+}
+
+
