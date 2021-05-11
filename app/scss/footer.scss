@@ -1,0 +1,19 @@
+.footer {
+    .container {
+        background: #02133C;
+    }
+    &__inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        margin: 23px 0 19px 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.15px;
+        color: #959595;
+    }
+}

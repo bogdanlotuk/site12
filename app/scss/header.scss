@@ -25,9 +25,6 @@
         align-items: center;
     }
     &__logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     &__top-right {
         display: flex;
@@ -113,6 +110,9 @@
     }
 }
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__img {
         width: 41px;
         height: 41px;

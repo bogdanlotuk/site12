@@ -1,0 +1,123 @@
+.impact {
+    .container{
+        background: #02133C;
+    }
+    &__inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+    &__img {
+        display: block;
+        position: absolute;
+        width: 498px;
+        height: 315px;
+        right: 0;
+        top: -80px;
+    }
+    &__img-car {
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+    }
+    &__top {
+        max-width: 410px;
+        margin-top: 110px;
+        margin-bottom: 79px;
+    }
+    &__above-title {
+        margin-bottom: 33px;
+        padding-left: 34px; 
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #fff;
+        position: relative;
+    }
+    &__above-title::before {
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 22px;
+        background-image: url(../img/we/red_grey_arrows.svg);
+        top: -2px;
+        left: 0;
+    }
+    &__title-h2 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    &__center {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 212px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 240px;
+        height: 76px;
+        padding-left: 87px;
+        position: relative;
+    }
+    &__item::before {
+        position: absolute;
+        content: '';
+        width: 76px;
+        height: 76px;
+        left: 0;
+    }
+    &__item:nth-child(1):before {
+        background-image: url(../img/impact/oil.svg);
+    }
+    &__item:nth-child(2):before {
+        background-image: url(../img/impact/transmission.svg);
+    }
+    &__item:nth-child(3):before {
+        background-image: url(../img/impact/alignment.svg);
+    }
+    &__item:nth-child(4):before {
+        background-image: url(../img/impact/engine.svg);
+    }
+    &__item-number {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: #C40B0B;
+    }
+    &__item-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #F5F5F5;
+    }
+    &__bottom {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+    }
+    &__bottom-left {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 30px;
+        color: #02133C;
+        margin: 0 130px 0 70px;
+    }
+    &__btn {
+        margin: 49px 76px 53px 10px;
+    }
+}

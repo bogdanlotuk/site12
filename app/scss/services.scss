@@ -1,9 +1,9 @@
 .services {
-        .container {
-            background: url(../img/services/bg_top.svg) no-repeat top left,
-                        url(../img/services/bg_bottom.svg) no-repeat bottom right;
-        }
-		&__inner {
+    .container {
+        background: url(../img/services/bg_top.svg) no-repeat top left,
+                    url(../img/services/bg_bottom.svg) no-repeat bottom right;
+    }
+    &__inner {
         margin: 0 auto;
         max-width: 1020px;
         display: flex;

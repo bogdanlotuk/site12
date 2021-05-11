@@ -1,0 +1,80 @@
+.gallery {
+    .container {
+        padding-bottom: 240px;
+        background: url('../img/gallery/bg_bottom.svg') no-repeat left bottom;
+    }
+    &__inner {
+        margin: -80px auto 0;
+        padding: 0 87px;
+        max-width: 1020px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        background-color: #fff;
+        position: relative;
+    }
+    &__above-title {
+        margin-top: 100px;
+        margin-bottom: 33px;
+        padding-left: 34px; 
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #4B4B4B;
+        position: relative;
+    }
+    &__above-title::before {
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 22px;
+        background-image: url(../img/we/red_grey_arrows.svg);
+        top: -2px;
+        left: 0;
+    }
+    &__title-h2 {
+        color: #02133C;
+        width: 60%;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 55px;
+    }
+    &__menu {
+        width: 100%;
+        margin-bottom: 410px;
+    }
+    &__video {
+        position: absolute;
+        bottom: -120px;
+    }
+    &__video-link {}
+}
+.list-gallery {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    &__item {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item-link {
+        text-align: center;
+        padding: 15px 0;
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: #02133C;
+        border-bottom: 1px solid #D5D5D5;
+    }
+    &__item-link:hover {
+        border-bottom: 1px solid #C40B0B;
+    }
+}

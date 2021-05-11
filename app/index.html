@@ -192,12 +192,16 @@
                         <p class="gallery__above-title">GALLERY & LIVE STREAMS</p>
                         <h2 class="gallery__title-h2">Check out our hard workers</h2>
                         <div class="gallery__menu">
-                            <a class="gallery__menu-item" href="#">Gallery</a>
-                            <a class="gallery__menu-item" href="#">Live stream: Bay 1</a>
-                            <a class="gallery__menu-item" href="#">Live stream: Bay 2</a>
-                            <a class="gallery__menu-item" href="#">Live stream: Bay 3</a>
+                            <ul class="list-gallery">
+                                <li class="list-gallery__item"><a class="list-gallery__item-link" href="#">Gallery</a></li>
+                                <li class="list-gallery__item"><a class="list-gallery__item-link" href="#">Live stream: Bay 1</a></li>
+                                <li class="list-gallery__item"><a class="list-gallery__item-link" href="#">Live stream: Bay 2</a></li>
+                                <li class="list-gallery__item"><a class="list-gallery__item-link" href="#">Live stream: Bay 3</a></li>
+                            </ul>
                         </div>
-                        <div class="gallery__video"></div>
+                        <div class="gallery__video">
+                            <video class="gallery__video-link" poster="img/gallery/poster.jpg"></video>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -206,21 +210,21 @@
                 <div class="container">
                     <div class="customers__inner">
                         <div class="customers__left">
-                            <p class="gallery__above-title">Our CUSTOMERS</p>
-                            <h2 class="gallery__title-h2">Illum qui dolorem eum quo voluptas ut distinctio</h2>
+                            <p class="customers__above-title">Our CUSTOMERS</p>
+                            <h2 class="customers__title-h2">Illum qui dolorem eum quo voluptas ut distinctio</h2>
                         </div>
                         <div class="customers__center">
                             <p class="customers__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. 
                                 Ut enim illum ad minim veniam, quis ea exercitation ullamco cillum ut enim dolore.”</p>
-                            <img class="customers__img" src="" alt="">
+                            <img class="customers__photo" src="img/customers/Cullen.jpg" alt="">
                             <p class="customers__name">Cullen Bohannon</p>
                         </div>
                         <div class="customers__right">
                             <p class="customers__text">“Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
                                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
                                 veritatis et quasi ipsam voluptatem aspernatur.”</p>
-                            <img class="customers__img" src="" alt="">
+                            <img class="customers__photo" src="img/customers/Jennifer.jpg" alt="">
                             <p class="customers__name">Jennifer Thomas</p>
                         </div>
                     </div>
@@ -230,49 +234,31 @@
             <section class="impact">
                 <div class="container">
                     <div class="impact__inner">
-                        <img class="impact__img" src="#" alt="">
-                        <div class="impact__top">
-                            <p class="gallery__above-title">OUR IMPACT</p>
-                            <h2 class="gallery__title-h2">Nemo enim ipsam voluptatem quia voluptas</h2>
+                        <div class="impact__img">
+                            <img class="impact__img-car" src="img/impact/car_top.jpg" alt="">
+                        </div>
+                            <div class="impact__top">
+                            <p class="impact__above-title">OUR IMPACT</p>
+                            <h2 class="impact__title-h2">Nemo enim ipsam voluptatem quia voluptas</h2>
                         </div>
                         <div class="impact__center">
                             <div class="impact__item">
-                                <div class="impact__item-left">
-                                    <img class="impact__item-img" src="#" alt="">
-                                </div>
-                                <div class="impact__item-right">
                                     <p class="impact__item-number">16k+</p>
                                     <p class="impact__item-text">Oil changes</p>
-                                </div>
                             </div>
                             <div class="impact__item">
-                                <div class="impact__item-left">
-                                    <img class="impact__item-img" src="#" alt="">
-                                </div>
-                                <div class="impact__item-right">
                                     <p class="impact__item-number">13k+</p>
                                     <p class="impact__item-text">Transmission repairs</p>
-                                </div>
                             </div>
                             <div class="impact__item">
-                                <div class="impact__item-left">
-                                    <img class="impact__item-img" src="#" alt="">
-                                </div>
-                                <div class="impact__item-right">
                                     <p class="impact__item-number">15k+</p>
                                     <p class="impact__item-text">Alignments made</p>
-                                </div>
                             </div>
                             <div class="impact__item">
-                                <div class="impact__item-left">
-                                    <img class="impact__item-img" src="#" alt="">
-                                </div>
-                                <div class="impact__item-right">
                                     <p class="impact__item-number">11,500+</p>
                                     <p class="impact__item-text">Engines repaired</p>
                                 </div>
                             </div>
-                        </div>
                         <div class="impact__bottom">
                             <p class="impact__bottom-left">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                             <button class="impact__btn btn">Make an Appointment</button>
@@ -281,55 +267,59 @@
                 </div>
             </section>
             
+            <section class="contact">
+                <div class="container">
+                    <div class="contact__inner">
+                        <div class="contact__left">
+                            <div class="contact__logo logo">
+                                <div class="logo__img">  
+                                    <img class="logo__link" src="img/header/logo.svg" alt="#">
+                                </div>
+                                <p class="logo__text">logoipsum</p>
+                            </div>
+                            <p class="contact__left-text">This is a blurb about the company sed do eiusmod tempor 
+                                incididunt ut labore et dolore ex magna aliqua. </p>
+                            <div class="contact__socials">
+                                <a class="contact__socials-link" href="#"><img class="contact__socials-img facebook" src="img/contact/facebook.svg" alt=""></a>
+                                <a class="contact__socials-link" href="#"><img class="contact__socials-img twitter" src="img/contact/twitter.svg" alt=""></a>
+                                <a class="contact__socials-link" href="#"><img class="contact__socials-img instagram" src="img/contact/instagram.svg" alt=""></a>
+                                <a class="contact__socials-link" href="#"><img class="contact__socials-img youtube" src="img/contact/youtube.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="contact__center">
+                            <h4 class="contact__title-link">explore links</h4>
+                            <ul class="contact__list-explore">
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">About</a></li>
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">Services</a></li>
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">Specials</a></li>
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">Estimates</a></li>
+                            </ul>
+                            <ul class="contact__list-explore">
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">Reviews</a></li>
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">Shop</a></li>
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">Careers</a></li>
+                                <li class="contact__explore-item"><a class="contact__explore-link" href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact__right">
+                            <h4 class="contact__title-link">contact</h4>
+                            <ul class="contact__list-contact">
+                                <li class="contact__contact-item">321 Pikes Place Parkway Seattle, WA 54321</li>
+                                <li class="contact__contact-item"><a class="contact__contact-link" href="tel:+5557654321">(555) 765-4321</a></li>
+                                <li class="contact__contact-item"><a class="contact__contact-link" href="mailto:info@company.com">info@company.com</a></li>
+                                <li class="contact__contact-item">Mon - Sat:  7:000 am - 6:00 pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+
         <footer class="footer">
             <div class="container">
                 <div class="footer__inner">
-                    <div class="footer__top">
-                        <div class="footer__top-left">
-                            <div class="footer__logo logo">
-                                <div class="logo__img"></div>
-                                <div class="logo__text"></div>
-                            </div>
-                            <p class="footer__top-left-text">This is a blurb about the company sed do eiusmod tempor 
-                                incididunt ut labore et dolore ex magna aliqua. </p>
-                            <div class="footer__socials">
-                                <a class="footer__socials-link" href="#"><img class="footer__socials-img facebook" src="#" alt=""></a>
-                                <a class="footer__socials-link" href="#"><img class="footer__socials-img twitter" src="#" alt=""></a>
-                                <a class="footer__socials-link" href="#"><img class="footer__socials-img instagram" src="#" alt=""></a>
-                                <a class="footer__socials-link" href="#"><img class="footer__socials-img youtube" src="#" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="footer__top-center">
-                            <h4 class="footer__title-link">EXPLORE LINKS</h4>
-                            <ul class="footer__list-explore">
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">About</a></li>
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">Services</a></li>
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">Specials</a></li>
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">Estimates</a></li>
-                            </ul>
-                            <ul class="footer__list-explore">
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">Reviews</a></li>
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">Shop</a></li>
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">Careers</a></li>
-                                <li class="footer__explore-item"><a class="footer__explore-link href="#">FAQs</a></li>
-                            </ul>
-                            <div class="footer__top-center-right"></div>
-                        </div>
-                        <div class="footer__top-right">
-                            <h4 class="footer__title-link">CONTACT</h4>
-                            <ul class="footer__list-contact">
-                                <li class="footer__contact-item">321 Pikes Place Parkway Seattle, WA 54321</li>
-                                <li class="footer__contact-item"><a class="footer__contact-link href="tel:+5557654321">(555) 765-4321</a></li>
-                                <li class="footer__contact-item"><a class="footer__contact-link href="mailto:info@company.com">info@company.com</a></li>
-                                <li class="footer__contact-item"><a class="footer__contact-link href="#">Mon - Sat:  7:000 am - 6:00 pm</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer__bottom">
-                        <p class="footer__bottom-left">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
-                        <p class="footer__bottom-right">© 2018 Company.  Privacy Policy | Terms & Conditions</p>
-                    </div>
+                    <p class="footer__text">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+                    <p class="footer__text">© 2018 Company. Privacy Policy | Terms & Conditions</p>
                 </div>
             </div>
         </footer>
