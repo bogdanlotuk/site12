@@ -1,6 +1,7 @@
 .impact {
     .container{
-        background: #02133C;
+        background: url('../img/impact/bg.svg') no-repeat center,
+                #02133C;
     }
     &__inner {
         margin: 0 auto;
@@ -111,11 +112,12 @@
         transform: translateY(50%);
     }
     &__bottom-left {
+        max-width: 500px;
         font-weight: 900;
         font-size: 24px;
         line-height: 30px;
         color: #02133C;
-        margin: 0 130px 0 70px;
+        margin-left: 70px;
     }
     &__btn {
         margin: 49px 76px 53px 10px;

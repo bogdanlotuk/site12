@@ -1,9 +1,7 @@
 .header {
     color: #fff;
     .container {
-        background-image: url(../img/header/header_bg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(../img/header/header_bg.jpg) no-repeat center;
         background-size: cover;
     }
     &__inner {
@@ -24,16 +22,14 @@
         display: flex;
         align-items: center;
     }
-    &__logo {
-    }
     &__top-right {
         display: flex;
         align-items: center;
     }
     &__hours {
         padding-left: 31px;
-        position: relative;
         margin-right: 30px;
+        position: relative;
     }
     &__hours::after {
         position: absolute;
@@ -42,9 +38,7 @@
         height: 18px;
         top: 3px;
         left: 0;
-        background-image: url('../img/header/clock.svg');
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url('../img/header/clock.svg') no-repeat center;
     }
     &__hours-top {
         font-weight: 700;
@@ -72,9 +66,7 @@
         height: 18px;
         top: 3px;
         left: 0;
-        background-image: url('../img/header/phone.svg');
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url('../img/header/phone.svg') no-repeat center;
     }
     &__call-top {
         font-weight: 700;
@@ -96,8 +88,7 @@
     &__top-menu {
         width: 100%;
     }
-    &__menu {
-    }
+
     &__middle {
         margin-bottom: 312px;
     }
