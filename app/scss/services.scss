@@ -39,12 +39,13 @@
     }
 		&__parts {
             display: flex;
+            justify-content: space-between;
             flex-wrap: wrap;
             gap: 22px;
             margin-bottom: 66px;
         }
 		&__item {
-            width: 324px;
+            max-width: 316px; 
             height: 340px;
             padding: 146px 44px 50px;
             display: flex;
@@ -105,6 +106,29 @@
             width: 145px;
             margin-bottom: 122px;
         }
+}
+@media (max-width: 1024px) {
+    .services {
+        &__title-h2 {
+            width: 100%;
+        }
+        &__parts {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .services {
+        &__above-title {
+            margin-top: 50px;
+        }
+        &__parts {
+            margin-bottom: 50px;
+        }
+        &__btn {
+            margin-bottom: 50px;
+        }
+    }
 }
 
 

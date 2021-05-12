@@ -66,3 +66,28 @@
         align-self: center;
     }
 }
+@media (max-width: 900px) {
+    .customers {
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__left {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .customers {
+        &__inner {
+            margin-bottom: 100px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .customers {
+        &__inner {
+            margin-bottom: 50px;
+        }
+    }
+}
