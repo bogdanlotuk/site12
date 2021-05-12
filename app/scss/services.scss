@@ -11,15 +11,13 @@
         align-items: flex-start;
     }
     &__above-title {
-        margin-top: 110px;
-        margin-bottom: 33px;
+        margin: 100px 0 33px 0;
         padding-left: 34px;
         font-weight: 700;
         font-size: 12px;
         line-height: 24px;
         letter-spacing: 2.5px;
         text-transform: uppercase;
-        color: #4B4B4B;
         position: relative;
     }
     &__above-title::before {
@@ -55,8 +53,6 @@
             position: relative;
             background-color: #fff;
         }
-		&__item-top {}
-		&__img {}
 		&__item-title {
             font-weight: 900;
             font-size: 19px;
@@ -103,7 +99,6 @@
             line-height: 24px;
             text-align: center;
             letter-spacing: 0.15px;
-            color: #4B4B4B;
         }
 		&__btn {
             align-self: center;

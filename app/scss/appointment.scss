@@ -62,42 +62,9 @@
         color: #02133C;
         margin-bottom: 21px;
     }
-    &__email {
-        width: 47%;
-        height: 48px;
-        background: #F5F5F5;
-        border: none;
-        padding: 23px 15px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.15px;
-        color: #959595;
-    }
-    &__phone {
-        width: 47%;
-        height: 48px;
-        background: #F5F5F5;
-        border: none;
-        padding: 23px 15px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.15px;
-        color: #959595;
-    }
-    &__name {
-        width: 47%;
-        height: 48px;
-        background: #F5F5F5;
-        border: none;
-        padding: 23px 15px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.15px;
-        color: #959595;
-    }
+    &__email,
+    &__phone,
+    &__name,
     &__service {
         width: 47%;
         height: 48px;
@@ -121,9 +88,6 @@
         line-height: 24px;
         letter-spacing: 0.15px;
         color: #959595;
-    }
-    &__btn {
-        // justify-self: end;
     }
 }
 
